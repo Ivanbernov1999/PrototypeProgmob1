@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.077"
         tools:srcCompat="@tools:sample/avatars"
-        android:src="@drawable/logokrs"/>
+        android:src="@drawable/krsivan"/>
 
     <ImageButton
         android:id="@+id/img_btn"
@@ -46,4 +46,13 @@
         app:layout_constraintVertical_bias="0.75"
         tools:srcCompat="@tools:sample/avatars" />
 
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ivan Bernov 72170149"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

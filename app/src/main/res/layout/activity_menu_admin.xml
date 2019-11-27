@@ -51,7 +51,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.413"
-        app:srcCompat="@drawable/datadosen" />
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/textView7"
@@ -74,7 +74,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.139"
-        app:srcCompat="@drawable/datadiri" />
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <ImageButton
         android:id="@+id/btnMatkul"
@@ -88,7 +88,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/daftarmatkul" />
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/daftarmatkul"
@@ -114,7 +114,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.992"
-        app:srcCompat="@drawable/kelolakrs" />
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/textView9"
@@ -150,7 +150,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/datamhs" />
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/textView6"
@@ -164,4 +164,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.287" />
 
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ivan Bernov 72170149"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.898" />
 </androidx.constraintlayout.widget.ConstraintLayout>
