@@ -36,18 +36,18 @@ public class RecyclerKls extends AppCompatActivity {
     }
     private void addData(){
         KlsArrayList = new ArrayList<>();
-        KlsArrayList.add(new Kls("Jumat",
-                "Pendidikan HAM", "Hendra Sigalingging", "3"));
-        KlsArrayList.add(new Kls("Kamis",
-                "Data Mining","Yetli Oslan","3"));
         KlsArrayList.add(new Kls("Senin",
-                "MLTI", "Wimmie","3"));
-        KlsArrayList.add(new Kls("Rabu",
-                "Manajemen Proyek", "Yrtli Oslan","3"));
+                "KTI", "Willy SR", "30"));
         KlsArrayList.add(new Kls("Selasa",
-                "Audir SI", "Lusy","3"));
+                "MRTI","Andhika","24"));
+        KlsArrayList.add(new Kls("Rabu",
+                "Progmob", "Argo Wibowo","20"));
+        KlsArrayList.add(new Kls("Rabu",
+                "Manajemen Proyek", "Yetli Oslan","51"));
         KlsArrayList.add(new Kls("Kamis",
-                "E-Commerce", "Budi Sutedjo","3"));
+                "E-Commerce", "Budi Sutedjo","54"));
+        KlsArrayList.add(new Kls("Jumat",
+                "ABD", "Budi Katon Wijana","36"));
 
     }
 

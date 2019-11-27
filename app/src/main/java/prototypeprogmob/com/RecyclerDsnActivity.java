@@ -51,7 +51,7 @@ public class RecyclerDsnActivity extends AppCompatActivity {
         progressDialog.show();
 
         GetDataService service = RetrofitClientInstance.getRetrofitInstance().create(GetDataService.class);
-        Call<List<DSN>>call = service.getDosenAll("721600012");
+        Call<List<DSN>>call = service.getDosenAll("72170001");
         call.enqueue(new Callback<List<DSN>>() {
             @Override
             public void onResponse(Call<List<DSN>> call, Response<List<DSN>> response) {
@@ -77,12 +77,12 @@ public class RecyclerDsnActivity extends AppCompatActivity {
     /*private void addData(){
         dsnArrayList = new ArrayList<>();
         dsnArrayList.add(new DSN("",
-                "123456789","Hendra Sigalingging", "hendra12@gmail.com", "jl.Mangga 12A Yogyakarta","S.Kom", R.drawable.hendra));
+                "893456789","willy SR", "WillySr@gmail.com", "jl.Kaliurang Yogyakarta","S.Kom", R.drawable.Willy));
         dsnArrayList.add(new DSN("",
-                "234567890","Yetli Oslan","yetli_oslan@gmail.com", "JL.Kamboja 78 Yogyakarta", "S.Kom",R.drawable.yetli));
+                "234597890","Argo Wibowo","Argo.Wibowo@gmail.com", "JL.pugeran  Yogyakarta", "S.Kom",R.drawable.Argo));
 //        R.drawable.yetli
         dsnArrayList.add(new DSN("",
-                "345678901","Wimmie H", "wimmiesyalala@gmail.com", "jl.Naga mas 66 Yogyakarta","S.Kom", R.drawable.wimmie));
+                "345478901"," Andhika", "Andhika12@gmail.com", "jl.Godean Yogyakarta","S.Kom", R.drawable.Andhika));
 
     }*/
 

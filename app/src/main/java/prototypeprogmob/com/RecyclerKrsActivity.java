@@ -39,12 +39,16 @@ public class RecyclerKrsActivity extends AppCompatActivity {
     }
     private void addData(){
         KRSSIArrayList = new ArrayList<>();
-        KRSSIArrayList.add(new KRSSI("MH2043",
-                "Pendidikan HAM", "Jumat", "3","3","Hendra Sigalingging","24"));
-        KRSSIArrayList.add(new KRSSI("SE4323",
-                "Data Mining","Kamis","1","3","Yetli Oslan","60"));
-        KRSSIArrayList.add(new KRSSI("SI2233",
-                "MLTI", "Senin","1","3","Wimmie","25"));
+        KRSSIArrayList.add(new KRSSI("SI001",
+                "KTI", "Senin", "2","3","Willy SR","30"));
+        KRSSIArrayList.add(new KRSSI("SI002",
+                "MRTI","Selasa","4","3","Andhika","32"));
+        KRSSIArrayList.add(new KRSSI("SI003",
+                "Manajemen Proyek", "Rabu","3","3","Yetli Oslan","54"));
+        KRSSIArrayList.add(new KRSSI("SI005",
+                "E-Commerce", "Kamis", "4", "3", "Budi Sutedjo", "60"));
+        KRSSIArrayList.add(new KRSSI("SI006",
+                "ABD", "Jumat", "1", "3", "Katon Wijana", "34"));
     }
 
 

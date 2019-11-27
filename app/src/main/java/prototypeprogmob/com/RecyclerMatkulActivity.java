@@ -33,18 +33,18 @@ public class RecyclerMatkulActivity extends AppCompatActivity {
     }
     private void addData(){
         MatkulArrayList = new ArrayList<>();
-        MatkulArrayList.add(new Matkul("MH2043",
-                "Pendidikan HAM", "Jumat", "3","3"));
-        MatkulArrayList.add(new Matkul("SE4323",
-                "Data Mining","Kamis","1","3"));
-        MatkulArrayList.add(new Matkul("SI2233",
-                "MLTI", "Senin","1","3"));
-        MatkulArrayList.add(new Matkul("SI3323",
+        MatkulArrayList.add(new Matkul("SI001",
+                "KTI", "Senin", "3","3"));
+        MatkulArrayList.add(new Matkul("SI002",
+                "MRTI","Selasa","4","3"));
+        MatkulArrayList.add(new Matkul("SI003",
                 "Manajemen Proyek", "Rabu","3","3"));
-        MatkulArrayList.add(new Matkul("SP5353",
-                "Audir SI", "Selasa","4","3"));
-        MatkulArrayList.add(new Matkul("SE3313",
+        MatkulArrayList.add(new Matkul("SI004",
+                "Progmob", "Rabu","4","3"));
+        MatkulArrayList.add(new Matkul("SI005",
                 "E-Commerce", "Kamis","4","3"));
+        MatkulArrayList.add(new Matkul("SI006",
+                "ABD", "Jumat","1","3"));
 
     }
 

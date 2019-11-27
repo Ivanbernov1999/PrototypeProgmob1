@@ -64,13 +64,13 @@ public class RecyclerMhsActivity extends AppCompatActivity {
     private  void addData(){
         mhsSIArrayList = new ArrayList<>();
         mhsSIArrayList.add(new MhsSI("72170157","Frizk F.Nainggolan",
-                "jl.Mawar 45 Yogyakarta","frizka12@gmail.com",R.drawable.frizka));
+                "jl.Magelang km.5 Yogyakarta","freezz@gmail.com",R.drawable.frizka));
         mhsSIArrayList.add(new MhsSI("72170101","Cynthia Kumalasari",
-                "jl.Melati 22 Yogyakarta","cynku.syalala@gmail.com",R.drawable.cyntia));
+                "jl.Malioboro Yogyakarta","cyntia.kumalasari@gmail.com",R.drawable.cyntia));
         mhsSIArrayList.add(new MhsSI("72170149","Ivan Bernov",
-                "jl.Anggrek 23 Yogyakerta","ivan55@gmail.com",R.drawable.ivan));
+                "jl.Cendrawasih No.7 Yogyakerta","ivanbernov76@gmail.com",R.drawable.ivan));
         mhsSIArrayList.add(new MhsSI("72170117","Daniel Surya Nugraha",
-                "jl.Kamboja 67 Yogyakarta","damen@gmail.com",R.drawable.daniel));
+                "jl.Wates KM.20 Yogyakarta","daniel.surya12@gmail.com",R.drawable.daniel));
     }
 
 }
